@@ -4,9 +4,10 @@
 
 `bundle init`
 `bundle add sinatra activerecord sinatra-activerecord sinatra-contrib rake faraday puma haml`
-`bundle add sqlite3 tux dotenv rubocop --group "development"`
+`bundle add sqlite3 tux dotenv rubocop standardrb --group "development"`
 `bundle add pg --group "production"`
 
 ## Development
 
-`puma # starts server`
+`rake server # starts server`
+`rake console # starts console`
