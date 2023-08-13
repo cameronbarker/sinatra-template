@@ -18,9 +18,11 @@ end
 group :development do
   gem 'dotenv', '~> 2.8'
   gem 'pry', '~> 0.14.2'
-  gem 'rack-test', '~> 0.6.3'
-  gem 'rspec', '~> 3.12'
   gem 'sqlite3', '~> 1.6'
   gem 'standard', '~> 1.30'
   gem 'tux', '~> 0.3.0'
+end
+
+group :development, :test do
+  gem 'rspec', '~> 3.12'
 end

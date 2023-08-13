@@ -144,7 +144,6 @@ DEPENDENCIES
   pg (~> 1.5)
   pry (~> 0.14.2)
   puma (~> 6.3)
-  rack-test (~> 0.6.3)
   rake (~> 13.0)
   rspec (~> 3.12)
   sinatra (~> 3.0)
