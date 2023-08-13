@@ -3,7 +3,7 @@
 # Include all the gems listed in Gemfile
 require "bundler"
 Bundler.require
-require "sinatra/activerecord"
+require 'dotenv/load'
 
 # main app
 class App < Sinatra::Base
