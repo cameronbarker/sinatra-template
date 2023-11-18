@@ -9,5 +9,5 @@
 
 ## Development
 
-`rake server # starts server`
-`rake console # starts console`
+`bundle exec rake server # starts server`
+`bundle exec rake console # starts console`

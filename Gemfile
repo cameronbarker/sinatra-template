@@ -1,28 +1,28 @@
 # frozen_string_literal: true
 
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem 'activerecord', '~> 7.0'
-gem 'faraday', '~> 2.7'
-gem 'haml', '~> 6.1'
-gem 'puma', '~> 6.3'
-gem 'rake', '~> 13.0'
-gem 'sinatra', '~> 3.0'
-gem 'sinatra-activerecord', '~> 2.0'
-gem 'sinatra-contrib', '~> 3.0'
+gem "activerecord"
+gem "faraday"
+gem "haml"
+gem "puma"
+gem "rake"
+gem "sinatra"
+gem "sinatra-activerecord"
+gem "sinatra-contrib"
 
 group :production do
-  gem 'pg', '~> 1.5'
+  gem "pg"
 end
 
 group :development do
-  gem 'dotenv', '~> 2.8'
-  gem 'pry', '~> 0.14.2'
-  gem 'sqlite3', '~> 1.6'
-  gem 'standard', '~> 1.30'
-  gem 'tux', '~> 0.3.0'
+  gem "dotenv"
+  gem "pry"
+  gem "sqlite3"
+  gem "standard"
+  gem "tux"
 end
 
 group :development, :test do
-  gem 'rspec', '~> 3.12'
+  gem "rspec"
 end
